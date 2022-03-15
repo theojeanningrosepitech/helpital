@@ -194,11 +194,7 @@ class _AboutPageMobileState extends State<AboutPageMobile>
   Widget _fadeInImage() {
     return AnimatedBuilder(
       animation: _controller,
-      child: Image.asset(
-        ImagePath.DEV,
-        height: heightOfScreen(context),
-        fit: BoxFit.cover,
-      ),
+      child: Container(),
       builder: (BuildContext context, Widget? child) {
         return Positioned(
           right: widthOfScreen(context) > 450

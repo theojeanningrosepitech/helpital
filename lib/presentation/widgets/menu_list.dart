@@ -88,7 +88,7 @@ class MenuList extends StatelessWidget {
     List<Widget> menuItems = [];
     menuItems.add(
         Container(
-          padding: EdgeInsets.only(bottom: 30.0),
+          padding: EdgeInsets.only(bottom: 30.0,),
       child: Image.asset(ImagePath.HELPITAL_LOGO_LONG,
         fit: BoxFit.fill,
         scale: 9,

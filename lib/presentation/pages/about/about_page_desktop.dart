@@ -326,9 +326,7 @@ class _AboutPageDesktopState extends State<AboutPageDesktop>
               decoration: new BoxDecoration(
                 shape: BoxShape.circle,
               ),
-              child: Image.asset(ImagePath.HELPITAL_LOGO,
-                fit: BoxFit.fill,
-              ),
+              child: Container()
             )
           ),
         ),

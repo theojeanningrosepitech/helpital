@@ -3,7 +3,7 @@ part of values;
 class AppColors {
   static const double primaryColorOpacity = 0.1;
 
-  static const Color primaryColor = Color(0xFFFF7171);
+  static const Color primaryColor = Color(0xFFFF3232);
   static const Color secondaryColor = Color(0xFFEBEBEB);
   static const Color accentColor = Color(0xFF5F6E80);
   static const Color accentColor2 = Color(0xFF000000);

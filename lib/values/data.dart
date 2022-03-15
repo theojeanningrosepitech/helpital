@@ -134,6 +134,7 @@ class SubMenuData {
 
 class Data {
   static List<MenuData> menuList = [
+
     /*MenuData(title: StringConst.HOME, routeName: HomePage.homePageRoute),*/
     MenuData(title: StringConst.ABOUT_ME, routeName: AboutPage.aboutPageRoute),
     MenuData(
