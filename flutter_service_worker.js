@@ -58,10 +58,10 @@ const RESOURCES = {
 "icons/helpital_logo_heart.png": "0079614b76352b3601200889ca0f9553",
 "icons/logo-aerium-2.png": "58b131c1e81194452cb702693c040a92",
 "icons/logo-aerium-1.png": "c9c1749b275f61ebc563d6596ccf2569",
-"main.dart.js": "6dc1f390e575e50b52a6bcb98ab944ff",
+"main.dart.js": "7f957e8abf3acf747de80311a8b8a0f6",
 "version.json": "1b204363036cb81cf2b14fbff671c6a4",
-"index.html": "75a070c7421232dc5adf178f7d911617",
-"/": "75a070c7421232dc5adf178f7d911617"
+"index.html": "758dfada0af477bc0794515cf28609e5",
+"/": "758dfada0af477bc0794515cf28609e5"
 };
 
 // The application shell files that are downloaded before a service worker can
