@@ -193,7 +193,7 @@ class StringConst {
   //Portfolio, Projects
   static const String LOGIN_CATALOG = "Bryan Fortin";
   static const String LOGIN_CATALOG_SUBTITLE =
-      "dévellopeur full stack";
+      "développeur full stack";
   static const String LOGIN_CATALOG_DETAIL = "Bryan est en indonesie hihi";
   static const String LOGIN_CATALOG_GITHUB_URL =
       "https://github.com/";
@@ -214,21 +214,21 @@ class StringConst {
 
   static const String FOODY_BITE = "Charles Debrix";
   static const String FOODY_BITE_SUBTITLE =
-      "dévellopeur full stack";
-  static const String FOODY_BITE_DETAIL = "Charles est un petit coquin caché au canada";
+      "développeur full stack";
+  static const String FOODY_BITE_DETAIL = "Bonjour, je suis Charles Debrix, je suis en 4ème année d’Epitech et je suis passionnée par la musique et le développement informatique. Je suis un sein d’Helpital depuis le début et j’ai assisté à son ascension. J’ai aidé le groupe à s’organiser et je m’occupe de plusieurs facettes du projet comme sa gestion et le développement de toute sortes de features dans le projet. Je travaille du coté back et front-end sur tout le projet.";
   static const String FOODY_BITE_GITHUB_URL =
       "";
 
   static const String ONBOARDING_APP = "César Venzac";
   static const String ONBOARDING_APP_SUBTITLE = "dévelloppeur full stack et UX/UI";
-  static const String ONBOARDING_APP_DETAIL = "César est UI/UX designer et dévellopeur full stack il aime bien le chocolat";
+  static const String ONBOARDING_APP_DETAIL = "Élève en 4ème année à Epitech, je suis passionné par l'informatique et l'art, je souhaite me spécialiser dans le développement créatif. Pour Helpital, je travaille principalement sur le style de l'application, le planning, la capsule patient et la numérisation des radiographies/échographies.";
   static const String ONBOARDING_APP_GITHUB_URL =
       "https://github.com/cesar-vzc";
 
   static const String OTP_TEXT_FIELD = "Emmanuel Lena";
-  static const String OTP_TEXT_FIELD_SUBTITLE = "dévelloppeur full stack";
+  static const String OTP_TEXT_FIELD_SUBTITLE = "développeur full stack";
   static const String OTP_TEXT_FIELD_DETAIL =
-      "Manu est étudiant a Epitech et aime les chips";
+      "Manu est étudiant a Epitech";
   static const String OTP_TEXT_FIELD_GITHUB_URL =
       "";
   static const String OTP_TEXT_FIELD_WEB_URL =
@@ -236,8 +236,8 @@ class StringConst {
 
   static const String FINOPP = "Irama Chaouch";
   static const String FINOPP_SUBTITLE =
-      "dévelloppeur full stack/ dévelloppeur mobile";
-  static const String FINOPP_DETAIL = "Irama est actuellement en coree du sud :)";
+      "développeur full stack/ développeur mobile";
+  static const String FINOPP_DETAIL = "Passionné depuis petite par la dance et la lecture. Je me suis  intéressée à la robotique pendants le lycée ce qui fait  que je me suis spécialisé dans l'informatique. J'aimerai me spécialisé dans le système embarqué. Mais comme je suis une personne qui aime la diversité et aime toucher et travailler sur plusieurs chose je risque de ne pas vraiment me spécialiser et juste travailler sur plusieurs missions et projets différents. Je m'occupe, au sein du projet, de l'application mobile et les pages suivantes (salles d'attentes, création des comptes rendu et Urgences)";
   static const String FINOPP_GITHUB_URL =
       "https://github.com/";
 
@@ -250,21 +250,22 @@ class StringConst {
 
   static const String BEQUIP_LOGISTICS = "Paul Ribas";
   static const String BEQUIP_LOGISTICS_SUBTITLE =
-      "dévelloppeur full stack";
-  static const String BEQUIP_LOGISTICS_DETAIL = "Paul is paul  when paul is luap";
+      "développeur full stack";
+  static const String BEQUIP_LOGISTICS_DETAIL = "Grand fan d’Esport et de jeux vidéos j’adore la nature et les animaux. Actuellement spécialiser dans le devops et le développement full-stack. Au sein d’Helpital j’ai travailler sur la création des rôles et de leur droits, ainsi que sur les featurs note et création d’ordonnance. Je pense qu’à therme si l’UI et l’UX d’helpital sont irréprochable l’intérêt de certaines cliniques ou hôpitaux sera indéniable!";
   static const String BEQUIP_LOGISTICS_WEB_URL = "https://github.com/";
 
   static const String AERIUM = "Théo Jeanningros";
   static const String AERIUM_SUBTITLE =
-      "dévelloppeur full stack/dévelloppeur mobile";
-  static const String AERIUM_DETAIL = "Théo est fait à 60% d'eau c'est ouf";
+      "développeur full stack/développeur mobile";
+  static const String AERIUM_DETAIL = "Passionné depuis l'enfance par le football, j'ai créé une nouvelle passion pour l'informatique après l'obtention de mon baccalauréat, j'aimerai me spécialiser dans le développement mobile ainsi que dans l'intelligence artificielle. Je m'occupe, au sein du projet, de la messagerie et de l'application mobile qui offre une nouvelle prise en main d'Helpital.";
+
   static const String AERIUM_GITHUB_URL =
-      "https://github.com/";
+      "https://github.com/theojeanningrosepitech";
   static const String AERIUM_WEB_URL = "";
 
   static const String LEARN_UPP = "Arnaud Lubert";
-  static const String LEARN_UPP_SUBTITLE = "dévelloppeur full stack";
-  static const String LEARN_UPP_DETAIL = "Arnaud est un petit bout de choux";
+  static const String LEARN_UPP_SUBTITLE = "développeur full stack";
+  static const String LEARN_UPP_DETAIL = "Passionné par l'informatique et la musique, je me suis spécialisé dans le développement web orienté back-end. Au sein du projet, j'ai principalement travaillé sur le plan, le système de connexion sécurisé et j'ai notamment élaboré une partie de l'architecture du code.";
   static const String LEARN_UPP_GITHUB_URL =
       "https://github.com/";
 
