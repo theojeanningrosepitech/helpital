@@ -12,18 +12,17 @@ class ImagePath {
 
   static const String VYBZ = "$imageDir/vybz.jpg";
   static const String COLOSSAL_TOONS = "$imageDir/helpital_logo_heart.jpg";
-  static const String LOGIN_CATALOG = "$imageDir/bryan.jpg";
-  static const String ONBOARDING_APP = "$imageDir/cesar.jpg";
-  static const String FOODY_BITE = "$imageDir/charles.jpg";
-  static const String OTP_TEXT_FIELD = "$imageDir/emmanuel.jpg";
-  static const String FINOPP = "$imageDir/irama.jpg";
-  static const String BEQUIP_LOGISTICS = "$imageDir/paul.jpg";
-  static const String AERIUM = "$imageDir/theo.jpg";
-  static const String LEARN_UPP = "$imageDir/arnaud.jpg";
+  static const String BRYAN = "$imageDir/bryan.jpg";
+  static const String CESAR = "$imageDir/cesar.jpg";
+  static const String CHARLES = "$imageDir/charles.jpg";
+  static const String MANU = "$imageDir/emmanuel.jpg";
+  static const String IRAMA = "$imageDir/irama.jpg";
+  static const String PAUL = "$imageDir/paul.jpg";
+  static const String THEO = "$imageDir/theo.jpg";
+  static const String ARNAUD = "$imageDir/arnaud.jpg";
   static const String HELPITAL_LOGO = "$imageDir/helpital_logo_heart.png";
 
   static const String PLAYSTORE = "$imageDir/playstore.png";
-//  static const String FLUTTER_CATALOG = "$imageDir/onboarding_app.png";
 
   //Certifications
   static const String ANDROID_BASICS_CERT = "$imageDir/android_basics_cert.png";

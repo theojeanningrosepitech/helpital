@@ -350,19 +350,20 @@ class _AboutPageDesktopState extends State<AboutPageDesktop>
     ThemeData theme = Theme.of(context);
 
     return ListView(
-      padding: EdgeInsets.all(Sizes.PADDING_0),
+      padding: EdgeInsets.all(Sizes.ELEVATION_0),
       children: [
         Container(
           padding: EdgeInsets.only(
-            left: (widthOfImage! / 2) + 20,
+            left: (widthOfImage! / 3),
             top: isDisplaySmallDesktopOrIpadPro(context)
                 ? assignHeight(context: context, fraction: 0.05)
                 : assignHeight(context: context, fraction: 0.12),
+            right: 5
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              FlickerTextAnimation(
+              FlickerTextAnimation  (
                 text: StringConst.INTRO,
                 textColor: AppColors.primaryColor,
                 fadeInColor: AppColors.primaryColor,
@@ -373,12 +374,13 @@ class _AboutPageDesktopState extends State<AboutPageDesktop>
                   color: AppColors.accentColor2,
                 ),
               ),
-              FlickerTextAnimation(
-                text: StringConst.DEV_NAME,
-                textColor: AppColors.primaryColor,
-                fadeInColor: AppColors.primaryColor,
-                fontSize: Sizes.TEXT_SIZE_34,
-                controller: _flickerAnimationController.view,
+            FlickerTextAnimation(
+                  text: StringConst.DEV_NAME,
+                  textColor: AppColors.primaryColor,
+                  fadeInColor: AppColors.primaryColor,
+                  fontSize: Sizes.TEXT_SIZE_34,
+                  controller: _flickerAnimationController.view,
+
               ),
               _isSubtitleVisible
                   ? FlickerTextAnimation(
@@ -396,13 +398,16 @@ class _AboutPageDesktopState extends State<AboutPageDesktop>
               AnimatedOpacity(
                 opacity: _visible ? aboutDevAnimation.value : 0.0,
                 duration: _aboutDevAnimationController.duration!,
-                child: Text(
-                  StringConst.ABOUT_DEV_TEXT,
-                  style: theme.textTheme.bodyText2!.copyWith(
-                    color: AppColors.black,
-                    fontSize: Sizes.TEXT_SIZE_16,
+                child: Container(
+                  padding: EdgeInsets.only(right: 5),
+                  child:  Text(
+                    StringConst.ABOUT_DEV_TEXT,
+                    style: theme.textTheme.bodyText2!.copyWith(
+                      color: AppColors.black,
+                      fontSize: Sizes.TEXT_SIZE_16,
+                    ),
                   ),
-                ),
+                )
               ),
               SpaceH40(),
               _isSubMenuListVisible

@@ -161,12 +161,14 @@ class _SubMenuListState extends State<SubMenuList>
             },
           );
         } else {
-          return Text(
-            menuData[index].content!,
-            style: theme.textTheme.bodyText2!.copyWith(
-              color: AppColors.black,
-              fontSize: Sizes.TEXT_SIZE_16,
-            ),
+          return FittedBox(
+            fit: BoxFit.contain,
+            child: Text(
+              menuData[index].content!,
+              style: theme.textTheme.bodyText2!.copyWith(
+                color: AppColors.black,
+              ),
+            )
           );
         }
       }

@@ -7,6 +7,8 @@ import 'package:helpital/presentation/pages/home/home_page.dart';
 import 'package:helpital/presentation/pages/portfolio/portfolio_page.dart';
 import 'package:helpital/presentation/pages/project_detail/project_detail.dart';
 
+import '../pages/contact/contact_page.dart';
+
 typedef PathWidgetBuilder = Widget Function(
     BuildContext, String? /*Map<String, String>*/);
 
@@ -40,10 +42,10 @@ class RouteConfiguration {
       r'^' + AboutPage.aboutPageRoute,
       (context, matches) => const AboutPage(),
     ),
-//    Path(
-//      r'^' + ContactPage.contactPageRoute,
-//      (context, matches) => const ContactPage(),
-//    ),
+    Path(
+      r'^' + ContactPage.contactPageRoute,
+      (context, matches) => const ContactPage(),
+    ),
     Path(
       r'^' + PortfolioPage.portfolioPageRoute,
       (context, matches) => const PortfolioPage(),

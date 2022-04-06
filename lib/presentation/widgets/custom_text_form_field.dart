@@ -58,7 +58,7 @@ class CustomTextFormField extends StatelessWidget {
             theme.textTheme.subtitle1!.copyWith(color: AppColors.primaryColor),
         validator: validator,
         onTap: onTap,
-        autovalidate: true,
+        autovalidateMode: AutovalidateMode.always,
         maxLines: maxLines,
         decoration: InputDecoration(
           border: border,

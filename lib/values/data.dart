@@ -1,7 +1,7 @@
 part of 'values.dart';
 
-//https://api.github.com/repos/david-legend/aerium/stargazers
-//https://api.github.com/repos/david-legend/aerium/forks
+//https://api.github.com/repos/david-legend/THEO/stargazers
+//https://api.github.com/repos/david-legend/THEO/forks
 class MenuData {
   MenuData({
     required this.title,
@@ -141,13 +141,13 @@ class Data {
       title: StringConst.PORTFOLIO,
       routeName: PortfolioPage.portfolioPageRoute,
     ),
-//    MenuData(
-//      title: StringConst.CONTACT,
-//      routeName: ContactPage.contactPageRoute,
-//    ),
     MenuData(
       title: StringConst.EXPERIENCE,
       routeName: ExperiencePage.experiencePageRoute,
+    ),
+    MenuData(
+      title: StringConst.CERTIFICATIONS,
+      routeName: ContactPage.contactPageRoute,
     ),
  /*   MenuData(title: StringConst.RESUME, routeName: StringConst.RESUME),
     MenuData(
@@ -178,122 +178,98 @@ class Data {
       isAnimation: true,
       skillData: skillData,
     ),
-    SubMenuData(
+  /*  SubMenuData(
       title: StringConst.EDUCATION,
       isSelected: false,
       content: StringConst.EDUCATION_TEXT,
-    ),
+    ),*/
   ];
   static double sizeOFCase = 0.14;
   static List<PortfolioData> portfolioData = [
     PortfolioData(
-      title: StringConst.ONBOARDING_APP,
-      subtitle: StringConst.ONBOARDING_APP_SUBTITLE,
-      image: ImagePath.ONBOARDING_APP,
-      portfolioDescription: StringConst.ONBOARDING_APP_DETAIL,
+      title: StringConst.CESAR,
+      subtitle: StringConst.CESAR_SUBTITLE,
+      image: ImagePath.CESAR,
+      portfolioDescription: StringConst.CESAR_DETAIL,
       imageSize: sizeOFCase,
       isPublic: true,
       technologyUsed: "",
-      gitHubUrl: StringConst.FOODY_BITE_GITHUB_URL,
+      gitHubUrl: StringConst.CHARLES_GITHUB_URL,
     ),
     PortfolioData(
-      title: StringConst.OTP_TEXT_FIELD,
-      subtitle: StringConst.OTP_TEXT_FIELD_SUBTITLE,
-      image: ImagePath.OTP_TEXT_FIELD,
-      portfolioDescription: StringConst.OTP_TEXT_FIELD_DETAIL,
+      title: StringConst.MANU,
+      subtitle: StringConst.MANU_SUBTITLE,
+      image: ImagePath.MANU,
+      portfolioDescription: StringConst.MANU_DETAIL,
       imageSize: sizeOFCase,
       isPublic: true,
       isLive: true,
       technologyUsed: "",
-      gitHubUrl: StringConst.OTP_TEXT_FIELD_GITHUB_URL,
-      webUrl: StringConst.OTP_TEXT_FIELD_WEB_URL,
+      gitHubUrl: StringConst.MANU_GITHUB_URL,
     ),
     PortfolioData(
-      title: StringConst.LOGIN_CATALOG,
-      subtitle: StringConst.LOGIN_CATALOG_SUBTITLE,
-      image: ImagePath.LOGIN_CATALOG,
-      portfolioDescription: StringConst.LOGIN_CATALOG_DETAIL,
+      title: StringConst.BRYAN,
+      subtitle: StringConst.BRYAN_SUBTITLE,
+      image: ImagePath.BRYAN,
+      portfolioDescription: StringConst.BRYAN_DETAIL,
       imageSize: sizeOFCase,
       isPublic: true,
       technologyUsed: '',
-      gitHubUrl: StringConst.LOGIN_CATALOG_GITHUB_URL,
+      gitHubUrl: StringConst.BRYAN_GITHUB_URL,
     ),
     PortfolioData(
-      title: StringConst.FOODY_BITE,
-      subtitle: StringConst.FOODY_BITE_SUBTITLE,
-      image: ImagePath.FOODY_BITE,
-      portfolioDescription: StringConst.FOODY_BITE_DETAIL,
+      title: StringConst.CHARLES,
+      subtitle: StringConst.CHARLES_SUBTITLE,
+      image: ImagePath.CHARLES,
+      portfolioDescription: StringConst.CHARLES_DETAIL,
       imageSize: sizeOFCase,
       isPublic: true,
       technologyUsed: '',
-      gitHubUrl: StringConst.FOODY_BITE_GITHUB_URL,
+      gitHubUrl: StringConst.CHARLES_GITHUB_URL,
     ),
     PortfolioData(
-      title: StringConst.FINOPP,
-      subtitle: StringConst.FINOPP_SUBTITLE,
-      image: ImagePath.FINOPP,
-      portfolioDescription: StringConst.FINOPP_DETAIL,
+      title: StringConst.IRAMA,
+      subtitle: StringConst.IRAMA_SUBTITLE,
+      image: ImagePath.IRAMA,
+      portfolioDescription: StringConst.IRAMA_DETAIL,
       imageSize: sizeOFCase,
       isPublic: true,
       technologyUsed: '',
-      gitHubUrl: StringConst.FINOPP_GITHUB_URL,
+      gitHubUrl: StringConst.IRAMA_GITHUB_URL,
     ),
     PortfolioData(
-      title: StringConst.BEQUIP_LOGISTICS,
-      subtitle: StringConst.BEQUIP_LOGISTICS_SUBTITLE,
-      image: ImagePath.BEQUIP_LOGISTICS,
-      portfolioDescription: StringConst.BEQUIP_LOGISTICS_DETAIL,
+      title: StringConst.PAUL,
+      subtitle: StringConst.PAUL_SUBTITLE,
+      image: ImagePath.PAUL,
+      portfolioDescription: StringConst.PAUL_DETAIL,
       imageSize: sizeOFCase,
       isLive: true,
       technologyUsed: '',
-      webUrl: StringConst.BEQUIP_LOGISTICS_WEB_URL,
+      gitHubUrl: StringConst.PAUL_WEB_URL
     ),
 
     PortfolioData(
-      title: StringConst.LEARN_UPP,
-      subtitle: StringConst.LEARN_UPP_SUBTITLE,
-      image: ImagePath.LEARN_UPP,
-      portfolioDescription: StringConst.LEARN_UPP_DETAIL,
+      title: StringConst.ARNAUD,
+      subtitle: StringConst.ARNAUD_SUBTITLE,
+      image: ImagePath.ARNAUD,
+      portfolioDescription: StringConst.ARNAUD_DETAIL,
       imageSize: sizeOFCase,
       isPublic: true,
       technologyUsed: '',
-      gitHubUrl: StringConst.LEARN_UPP_GITHUB_URL,
+      gitHubUrl: StringConst.ARNAUD_GITHUB_URL,
     ),
     PortfolioData(
-      title: StringConst.AERIUM,
-      subtitle: StringConst.AERIUM_SUBTITLE,
-      image: ImagePath.AERIUM,
-      portfolioDescription: StringConst.AERIUM_DETAIL,
+      title: StringConst.THEO,
+      subtitle: StringConst.THEO_SUBTITLE,
+      image: ImagePath.THEO,
+      portfolioDescription: StringConst.THEO_DETAIL,
       imageSize: sizeOFCase,
       isPublic: true,
       technologyUsed: '',
-      gitHubUrl: StringConst.AERIUM_GITHUB_URL,
+      gitHubUrl: StringConst.THEO_GITHUB_URL,
     ),
   ];
 
-  static List<CertificationData> certificationData = [
-    CertificationData(
-      title: StringConst.ASSOCIATE_ANDROID_DEV,
-      url: StringConst.ASSOCIATE_ANDROID_DEV_URL,
-      image: ImagePath.ASSOCIATE_ANDROID_DEV,
-      imageSize: 0.30,
-      awardedBy: StringConst.GOOGLE,
-    ),
-    CertificationData(
-      title: StringConst.DATA_SCIENCE,
-      url: StringConst.DATA_SCIENCE_CERT_URL,
-      image: ImagePath.DATA_SCIENCE_CERT,
-      imageSize: 0.30,
-      awardedBy: StringConst.UDACITY,
-    ),
-    CertificationData(
-      title: StringConst.ANDROID_BASICS,
-      url: StringConst.ANDROID_BASICS_CERT_URL,
-      image: ImagePath.ANDROID_BASICS_CERT,
-      imageSize: 0.30,
-      awardedBy: StringConst.UDACITY,
-    ),
-  ];
 
   static List<ExperienceData> experienceData = [
     ExperienceData(

@@ -9,17 +9,17 @@ class StringConst {
   static const String HOME = "Helpital";
   static const String ABOUT_ME = "Helpital";
   static const String PORTFOLIO = "L'équipe Helpital";
-  static const String EXPERIENCE = "Parcour";
+  static const String EXPERIENCE = "Parcours";
   static const String WORK = "Where I've Worked";
   static const String SERVICES = "Services";
   static const String CONTACT = "Contact";
   static const String PHONE_NUMBER = "Phone Number";
   static const String RESUME = "Resume";
-  static const String CERTIFICATIONS = "Certifications";
+  static const String CERTIFICATIONS = "Contactez-nous";
   static const String EMAIL_VALUE = "davidcobbina47@gmail.com";
 
   static const String MESSAGE_ME = "Message me";
-  static const String GET_IN_TOUCH = "Get in touch";
+  static const String GET_IN_TOUCH = "Contactez-nous";
   static const String VIEW = "View";
   static const String COMING_SOON = "COMING SOON !!";
   static const String BUILT_WITH = "";
@@ -86,8 +86,7 @@ class StringConst {
 
   //Socials
   static const String GITHUB_URL = "";
-  static const String LINKED_IN_URL =
-      "https://www.linkedin.com/company/helpital/about/";
+  static const String LINKED_IN_URL = "https://www.linkedin.com/company/helpital/about/";
   static const String TWITTER_URL = "https://www.facebook.com/HelpitalSolution";
   static const String INSTAGRAM_URL =
       "";
@@ -113,36 +112,26 @@ class StringConst {
   static const String GOOGLE = "Google";
   static const String UDACITY = "Udacity";
 
-  //CertificationType
-  static const String ASSOCIATE_ANDROID_DEV = "Associate Android Developer";
-  static const String DATA_SCIENCE = "Data Science";
-  static const String ANDROID_BASICS = "Android Basics";
 
-  //Experience
+  //PARCOURS
   static const String CURRENT_MONTH_YEAR = "Septembre 2020";
   static const String STARTED_MONTH_YEAR = "Mars 2022 - En cours";
 
   static const String COMPANY_0 = "Sprint FAST FORWARD";
   static const String COMPANY_0_URL = "";
   static const String POSITION_0 = "3th Sprint";
-  static const String COMPANY_0_ROLE_1 =
-      "75% de la béta du logiciel terminer";
-  static const String COMPANY_0_ROLE_2 =
-      "Début de nouvelle feature";
-  static const String COMPANY_0_ROLE_3 =
-      "";
+  static const String COMPANY_0_ROLE_1 = "75% de la béta du logiciel terminer";
+  static const String COMPANY_0_ROLE_2 = "Début de nouvelle feature";
+  static const String COMPANY_0_ROLE_3 = "";
   static const String LOCATION_0 = "Terre";
-  static const String DURATION_0 = "Février 2022 - June 2022";
+  static const String DURATION_0 = "Février 2022 - Juin 2022";
 
   static const String COMPANY_1 = "Sprint MANAGEMENT & PROCESS";
   static const String COMPANY_1_URL = "";
   static const String POSITION_1 = "2nd Sprint";
-  static const String COMPANY_1_ROLE_1 =
-      "Amélioration du working flow";
-  static const String COMPANY_1_ROLE_2 =
-      "Réfactore du front en PUG";
-  static const String COMPANY_1_ROLE_3 =
-      "Ajout de deux nouveaux membres";
+  static const String COMPANY_1_ROLE_1 = "Amélioration du working flow";
+  static const String COMPANY_1_ROLE_2 = "Réfactore du front en PUG";
+  static const String COMPANY_1_ROLE_3 = "Ajout de deux nouveaux membres";
   static const String LOCATION_1 = "Terre";
   static const String DURATION_1 = "Novembre 2021 - Janvier 2022";
 
@@ -151,129 +140,84 @@ class StringConst {
   static const String COMPANY_2 = "Sprint TEST & LEARN";
   static const String COMPANY_2_URL = "";
   static const String POSITION_2 = "1er Sprint";
-  static const String COMPANY_2_ROLE_1 =
-      "Changement de technologie pour notre plateforme";
-  static const String COMPANY_2_ROLE_2 =
-      "démarage de la créations de notre API";
-  static const String COMPANY_2_ROLE_3 =
-      "";
-  static const String COMPANY_2_ROLE_4 =
-      "";
+  static const String COMPANY_2_ROLE_1 = "Changement de technologie pour notre plateforme";
+  static const String COMPANY_2_ROLE_2 = "Démarrage de la création de notre API";
+  static const String COMPANY_2_ROLE_3 = "";
+  static const String COMPANY_2_ROLE_4 = "";
   static const String LOCATION_2 = "France - Nice";
   static const String DURATION_2 = "Avril 2021 - Juillet 2021";
 
   static const String COMPANY_3 = "Proof Of Concept";
   static const String COMPANY_3_URL = "";
   static const String POSITION_3 = "Improve & Structure";
-  static const String COMPANY_3_ROLE_1 =
-      "Début d'un logiciel en C++ avec QT ";
-  static const String COMPANY_3_ROLE_2 =
-      "Interfaced with clients on a weekly basis, providing technological expertise";
-  static const String COMPANY_3_ROLE_3 =
-      "Modified existing software to correct errors, upgrade interfaces and improve performance";
-  static const String COMPANY_3_ROLE_4 =
-      "Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across web and mobile applications.";
+  static const String COMPANY_3_ROLE_1 = "Début d'un logiciel en C++ avec QT ";
+  static const String COMPANY_3_ROLE_2 = "Interfaced with clients on a weekly basis, providing technological expertise";
+  static const String COMPANY_3_ROLE_3 = "Modified existing software to correct errors, upgrade interfaces and improve performance";
+  static const String COMPANY_3_ROLE_4 = "Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across web and mobile applications.";
   static const String LOCATION_3 = "France - Nice";
   static const String DURATION_3 = "Novembre 2020 - Décembre 2020";
 
+
+  /// EVENT
   static const String COMPANY_4 = "Moonshot Epitech";
   static const String COMPANY_4_URL = SITE_URL;
-  static const String POSITION_4 = "Créations du groupe Helpital";
-  static const String COMPANY_4_ROLE_1 =
-      "Deux semaines intenses d’idéation";
-  static const String COMPANY_4_ROLE_2 =
-      "Conférences et tables rondes";
-  static const String COMPANY_4_ROLE_3 =
-      "faire infuser puis naitre les idées qui mèneront à la création des Epitech Innovative Projet";
-  static const String COMPANY_4_ROLE_4 =
-      "Interface with clients and provide technological expertise";
+  static const String POSITION_4 = "Création du groupe Helpital";
+  static const String COMPANY_4_ROLE_1 = "Deux semaines intenses d’idéation";
+  static const String COMPANY_4_ROLE_2 = "Conférences et tables rondes";
+  static const String COMPANY_4_ROLE_3 = "Faire infuser puis naitre les idées qui mèneront à la création des Epitech Innovative Projet";
+  static const String COMPANY_4_ROLE_4 = "Interface with clients and provide technological expertise";
   static const String LOCATION_4 = "France - Nice";
   static const String DURATION_4 = "Septembre 2020";
 
   //Portfolio, Projects
-  static const String LOGIN_CATALOG = "Bryan Fortin";
-  static const String LOGIN_CATALOG_SUBTITLE =
-      "développeur full stack";
-  static const String LOGIN_CATALOG_DETAIL = "Bryan est en indonesie hihi";
-  static const String LOGIN_CATALOG_GITHUB_URL =
-      "https://github.com/";
 
-  static const String VYBZ = "Vybz";
-  static const String VYBZ_SUBTITLE =
-      "An app that enlist all tourist sites, restaurants etc.";
-  static const String VYBZ_DETAIL =
-      "Vybz is a very handy app for all outgoing and adventurous people. The app lists all the popular and favorites tourist sites, restaurants etc. in the country. This app was a collaboration between David Cobbina and Joseph Cobbina (Founder, CEO of Petamindz (https://petamindz.com/)).";
-  static const String VYBZ_PLAYSTORE_URL = "";
+  /// BRYAN
+  static const String BRYAN = "Bryan Fortin";
+  static const String BRYAN_SUBTITLE = "développeur full stack";
+  static const String BRYAN_DETAIL = "Âgé de 24 ans, né à Nice, je suis en 4ème année à Epitech. Je suis passionné par le sport en général mais plus particulièrement pars le Football, j'adore les jeux vidéo (l'informatique en général) et je suis pas mal l'Esport. Je suis arrivé en cours de projet au sein d'Helpital et j'ai principalement travaillé sur la messagerie ainsi que sur le système de pointage. J'ai fait du back-end et du front-end";
+  static const String BRYAN_GITHUB_URL = "https://github.com/";
 
-  static const String COLOSSAL_TOONS = "Colossal Toons";
-  static const String COLOSSAL_TOONS_SUBTITLE =
-      "CT is an app for watching very creative and entertaining animations.";
-  static const String COLOSSAL_TOONS_DETAIL =
-      "Colossal Toons is an animation production company that create exciting and fun to watch animations. The purpose of the app is to help centralize all the animations and stories made by the company. The app is also an easy and convenient way to let all the Colossal Toons fans out there get access to. This app was worked by David Cobbina, Stephen Opoku (https://www.linkedin.com/in/stephen-opoku-damoah/) and Eric Asare (https://www.linkedin.com/in/eric-asare-2550a7142/). ";
-  static const String COLOSSAL_TOONS_PLAYSTORE_URL = "";
 
-  static const String FOODY_BITE = "Charles Debrix";
-  static const String FOODY_BITE_SUBTITLE =
-      "développeur full stack";
-  static const String FOODY_BITE_DETAIL = "Bonjour, je suis Charles Debrix, je suis en 4ème année d’Epitech et je suis passionnée par la musique et le développement informatique. Je suis un sein d’Helpital depuis le début et j’ai assisté à son ascension. J’ai aidé le groupe à s’organiser et je m’occupe de plusieurs facettes du projet comme sa gestion et le développement de toute sortes de features dans le projet. Je travaille du coté back et front-end sur tout le projet.";
-  static const String FOODY_BITE_GITHUB_URL =
+  /// CHARLES
+  static const String CHARLES = "Charles Debrix";
+  static const String CHARLES_SUBTITLE = "développeur full stack";
+  static const String CHARLES_DETAIL = "Bonjour, je suis Charles Debrix, je suis en 4ème année d’Epitech et je suis passionnée par la musique et le développement informatique. Je suis un sein d’Helpital depuis le début et j’ai assisté à son ascension. J’ai aidé le groupe à s’organiser et je m’occupe de plusieurs facettes du projet comme sa gestion et le développement de toute sortes de features dans le projet. Je travaille du coté back et front-end sur tout le projet.";
+  static const String CHARLES_GITHUB_URL =
       "";
+  /// CESAR
+  static const String CESAR = "César Venzac";
+  static const String CESAR_SUBTITLE = "dévelloppeur full stack et UX/UI";
+  static const String CESAR_DETAIL = "Élève en 4ème année à Epitech, je suis passionné par l'informatique et l'art, je souhaite me spécialiser dans le développement créatif. Pour Helpital, je travaille principalement sur le style de l'application, le planning, la capsule patient et la numérisation des radiographies/échographies.";
+  static const String CESAR_GITHUB_URL = "https://github.com/cesar-vzc";
 
-  static const String ONBOARDING_APP = "César Venzac";
-  static const String ONBOARDING_APP_SUBTITLE = "dévelloppeur full stack et UX/UI";
-  static const String ONBOARDING_APP_DETAIL = "Élève en 4ème année à Epitech, je suis passionné par l'informatique et l'art, je souhaite me spécialiser dans le développement créatif. Pour Helpital, je travaille principalement sur le style de l'application, le planning, la capsule patient et la numérisation des radiographies/échographies.";
-  static const String ONBOARDING_APP_GITHUB_URL =
-      "https://github.com/cesar-vzc";
+  /// MANU
+  static const String MANU = "Emmanuel Lena";
+  static const String MANU_SUBTITLE = "développeur full stack";
+  static const String MANU_DETAIL = "Emmanuel est étudiant a Epitech";
+  static const String MANU_GITHUB_URL = "";
 
-  static const String OTP_TEXT_FIELD = "Emmanuel Lena";
-  static const String OTP_TEXT_FIELD_SUBTITLE = "développeur full stack";
-  static const String OTP_TEXT_FIELD_DETAIL =
-      "Manu est étudiant a Epitech";
-  static const String OTP_TEXT_FIELD_GITHUB_URL =
-      "";
-  static const String OTP_TEXT_FIELD_WEB_URL =
-      "https://pub.dev/packages/flutter_otp_text_field";
+  ///IRAMA
+  static const String IRAMA = "Irama Chaouch";
+  static const String IRAMA_SUBTITLE = "développeur full stack/ développeur mobile";
+  static const String IRAMA_DETAIL = "Passionné depuis petite par la dance et la lecture. Je me suis  intéressée à la robotique pendants le lycée ce qui fait  que je me suis spécialisé dans l'informatique. J'aimerai me spécialisé dans le système embarqué. Mais comme je suis une personne qui aime la diversité et aime toucher et travailler sur plusieurs chose je risque de ne pas vraiment me spécialiser et juste travailler sur plusieurs missions et projets différents. Je m'occupe, au sein du projet, de l'application mobile et les pages suivantes (salles d'attentes, création des comptes rendu et Urgences)";
+  static const String IRAMA_GITHUB_URL = "https://github.com/";
 
-  static const String FINOPP = "Irama Chaouch";
-  static const String FINOPP_SUBTITLE =
-      "développeur full stack/ développeur mobile";
-  static const String FINOPP_DETAIL = "Passionné depuis petite par la dance et la lecture. Je me suis  intéressée à la robotique pendants le lycée ce qui fait  que je me suis spécialisé dans l'informatique. J'aimerai me spécialisé dans le système embarqué. Mais comme je suis une personne qui aime la diversité et aime toucher et travailler sur plusieurs chose je risque de ne pas vraiment me spécialiser et juste travailler sur plusieurs missions et projets différents. Je m'occupe, au sein du projet, de l'application mobile et les pages suivantes (salles d'attentes, création des comptes rendu et Urgences)";
-  static const String FINOPP_GITHUB_URL =
-      "https://github.com/";
-
-  static const String FLUTTER_CATALOG = "Login Catalog";
-  static const String FLUTTER_CATALOG_SUBTITLE =
-      "A beautiful cataalog of login designs";
-  static const String FLUTTER_CATALOG_DETAIL =
-      "Flutter Catalog is a beautiful catalog of designs built with flutter. The goal is to catalog different components and building blocks of a mobile app to help flutter devs get right to the most important part of their app. Another reason behind the project is to show that flutter can be used to build beautiful and exquisite UI.";
-  static const String FLUTTER_CATALOG_GITHUB_URL = "";
-
-  static const String BEQUIP_LOGISTICS = "Paul Ribas";
-  static const String BEQUIP_LOGISTICS_SUBTITLE =
-      "développeur full stack";
-  static const String BEQUIP_LOGISTICS_DETAIL = "Grand fan d’Esport et de jeux vidéos j’adore la nature et les animaux. Actuellement spécialiser dans le devops et le développement full-stack. Au sein d’Helpital j’ai travailler sur la création des rôles et de leur droits, ainsi que sur les featurs note et création d’ordonnance. Je pense qu’à therme si l’UI et l’UX d’helpital sont irréprochable l’intérêt de certaines cliniques ou hôpitaux sera indéniable!";
-  static const String BEQUIP_LOGISTICS_WEB_URL = "https://github.com/";
-
-  static const String AERIUM = "Théo Jeanningros";
-  static const String AERIUM_SUBTITLE =
-      "développeur full stack/développeur mobile";
-  static const String AERIUM_DETAIL = "Passionné depuis l'enfance par le football, j'ai créé une nouvelle passion pour l'informatique après l'obtention de mon baccalauréat, j'aimerai me spécialiser dans le développement mobile ainsi que dans l'intelligence artificielle. Je m'occupe, au sein du projet, de la messagerie et de l'application mobile qui offre une nouvelle prise en main d'Helpital.";
-
-  static const String AERIUM_GITHUB_URL =
-      "https://github.com/theojeanningrosepitech";
-  static const String AERIUM_WEB_URL = "";
-
-  static const String LEARN_UPP = "Arnaud Lubert";
-  static const String LEARN_UPP_SUBTITLE = "développeur full stack";
-  static const String LEARN_UPP_DETAIL = "Passionné par l'informatique et la musique, je me suis spécialisé dans le développement web orienté back-end. Au sein du projet, j'ai principalement travaillé sur le plan, le système de connexion sécurisé et j'ai notamment élaboré une partie de l'architecture du code.";
-  static const String LEARN_UPP_GITHUB_URL =
-      "https://github.com/";
+  /// PAUL
+  static const String PAUL = "Paul Ribas";
+  static const String PAUL_SUBTITLE = "développeur full stack";
+  static const String PAUL_DETAIL = "Grand fan d’Esport et de jeux vidéos j’adore la nature et les animaux. Actuellement spécialiser dans le devops et le développement full-stack. Au sein d’Helpital j’ai travailler sur la création des rôles et de leur droits, ainsi que sur les featurs note et création d’ordonnance. Je pense qu’à therme si l’UI et l’UX d’helpital sont irréprochable l’intérêt de certaines cliniques ou hôpitaux sera indéniable!";
+  static const String PAUL_WEB_URL = "https://github.com/";
+  /// THEO
+  static const String THEO = "Théo Jeanningros";
+  static const String THEO_SUBTITLE = "développeur full stack/développeur mobile";
+  static const String THEO_DETAIL = "Passionné depuis l'enfance par le football, j'ai créé une nouvelle passion pour l'informatique après l'obtention de mon baccalauréat, j'aimerais me spécialiser dans le développement mobile ainsi que dans l'intelligence artificielle. Je m'occupe, au sein du projet, de la messagerie et de l'application mobile qui offre une nouvelle prise en main d'Helpital.";
+  static const String THEO_GITHUB_URL = "https://github.com/theojeanningrosepitech";
+  /// ARNAUD
+  static const String ARNAUD = "Arnaud Lubert";
+  static const String ARNAUD_SUBTITLE = "développeur full stack";
+  static const String ARNAUD_DETAIL = "Passionné par l'informatique et la musique, je me suis spécialisé dans le développement web orienté back-end. Au sein du projet, j'ai principalement travaillé sur le plan, le système de connexion sécurisé et j'ai notamment élaboré une partie de l'architecture du code.";
+  static const String ARNAUD_GITHUB_URL = "https://github.com/";
 
   static const String CIRCE = "Circe";
   static const String PROXIMA_NOVA = "ProximaNova";
-
-  //API
-  static const String BASE_URL =
-      "https://asqbx1u5bg.execute-api.us-east-1.amazonaws.com/production/";
-  static const String SEND_END_POINT = "send";
 }
