@@ -42,7 +42,7 @@ const RESOURCES = {
 "assets/assets/images/bequip_logistics.jpg": "d9a33516351b0bb9e7cadc83b8780c66",
 "assets/assets/images/learn_upp.jpg": "45063d1af568d5f2ad55b3f6eb447233",
 "assets/assets/images/foodybite.jpg": "15fa08d9eea454b52afcd280aa044083",
-"assets/NOTICES": "e3b8c966a6bde00033595c7b6e32b372",
+"assets/NOTICES": "20d9b7301f766d27869bcbb32269807c",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "aa1ec80f1b30a51d64c72f669c1326a7",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "5178af1d278432bec8fc830d50996d6f",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "b37ae0f14cbc958316fac4635383b6e8",
@@ -58,10 +58,10 @@ const RESOURCES = {
 "icons/helpital_logo_heart.png": "0079614b76352b3601200889ca0f9553",
 "icons/logo-aerium-2.png": "58b131c1e81194452cb702693c040a92",
 "icons/logo-aerium-1.png": "c9c1749b275f61ebc563d6596ccf2569",
-"main.dart.js": "7f957e8abf3acf747de80311a8b8a0f6",
+"main.dart.js": "96168402f63f3cd654199c4b93977cba",
 "version.json": "1b204363036cb81cf2b14fbff671c6a4",
-"index.html": "758dfada0af477bc0794515cf28609e5",
-"/": "758dfada0af477bc0794515cf28609e5"
+"index.html": "b3b59e386bec769ea548b9efc138471a",
+"/": "b3b59e386bec769ea548b9efc138471a"
 };
 
 // The application shell files that are downloaded before a service worker can
