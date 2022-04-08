@@ -66433,7 +66433,7 @@ s=p}while(true)switch(s){case 0:p=4
 A.eR("status code Inventorjjjy = ")
 k=t.N
 s=7
-return A.Q(A.aBM(A.L0("http://helpital.fr:3000/api/website/email?sender="+a+"&name="+b+"&phone="+c+"&message="+d,0,null),A.aL(["Accept","application/json","Access-Control_Allow_Origin","*"],k,k)),$async$qr)
+return A.Q(A.aBM(A.L0("http://helpital.fr:3000/api/website/email?sender="+a+"&name="+b+"&phone="+c+"&message="+d,0,null),A.aL(["Accept","application/json","Content-type","application/json","Access-Control_Allow_Origin","*","X-Requested-With","XMLHttpRequest"],k,k)),$async$qr)
 case 7:m=f
 A.eR("status code Inventory = ")
 A.eR("status code Inventory = "+B.f.i(m.b))
