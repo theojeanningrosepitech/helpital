@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:helpital/core/layout/adaptive.dart';
 import 'package:helpital/core/utils/functions.dart';
-import 'package:helpital/presentation/pages/contact/contactService.dart';
+import 'package:helpital/presentation/pages/contact/contact_service.dart';
 import 'package:helpital/presentation/pages/contact/contact_page.dart';
 import 'package:helpital/presentation/widgets/contact_form.dart';
 import 'package:helpital/presentation/widgets/contact_info.dart';
@@ -24,7 +24,7 @@ class _ContactPageDesktopState extends State<ContactPageDesktop> {
  late TextEditingController _messageController;
  late TextEditingController _phoneNumberController;
  late TextEditingController _nameController;
-
+ String errorSend = '';
  @override
  void initState() {
    //_emailBloc = BlocProvider.of<EmailBloc>(context);
@@ -78,49 +78,54 @@ class _ContactPageDesktopState extends State<ContactPageDesktop> {
                                  assignWidth(context: context, fraction: 0.4),
                              child: contactInfo(),
                            ),
+
                            SizedBox(
                              width: assignWidth(
                                context: context,
                                fraction: 0.025,
                              ),
                            ),
-                           TrailingInfo(
-                             width: assignWidth(
-                               context: context,
-                               fraction: 0.35,
-                             ),
-                             crossAxisAlignment: CrossAxisAlignment.center,
-                             color: AppColors.primaryColor,
-                             leadingWidget: Text(
-                               StringConst.MESSAGE_ME,
-                               style: theme.textTheme.headline4?.copyWith(
-                                 color: AppColors.grey100,
-                               ),
-                             ),
-                             middleWidget: ContactForm(
-                               maxLines: 15,
-                               controllers: [
-                                 _nameController,
-                                 _phoneNumberController,
-                                 _emailController,
-                                 _messageController,
-                               ],
-                               padding: EdgeInsets.only(
-                                 left: assignWidth(
+
+
+                               TrailingInfo(
+                                 width: assignWidth(
                                    context: context,
-                                   fraction: 0.025,
+                                   fraction: 0.35,
                                  ),
-                               ),
-                             ),
-                             trailingWidget: SendMessageButton(
-                               onPressed: () => sendEmail(),
-                             ),
-                             spacingWidget:
+                                 crossAxisAlignment: CrossAxisAlignment.center,
+                                 color: AppColors.primaryColor,
+                                 leadingWidget: Text(
+                                   StringConst.MESSAGE_ME,
+                                   style: theme.textTheme.headline4?.copyWith(
+                                     color: AppColors.grey100,
+                                   ),
+                                 ),
+                                 middleWidget: ContactForm(
+                                   maxLines: 15,
+                                   controllers: [
+                                     _nameController,
+                                     _phoneNumberController,
+                                     _emailController,
+                                     _messageController,
+                                   ],
+                                   padding: EdgeInsets.only(
+                                     left: assignWidth(
+                                       context: context,
+                                       fraction: 0.025,
+                                     ),
+                                   ),
+                                 ),
+
+                                 trailingWidget: SendMessageButton(
+                                   onPressed: () => sendEmail(),
+                                 ),
+                                 spacingWidget:
                                  isDisplaySmallDesktopOrIpadPro(context)
                                      ? SpaceH30()
                                      : SpaceH44(),
-                           )
-                         ],
+                               )
+                             ],
+
                        ),
                      )
                    ],
@@ -193,10 +198,77 @@ class _ContactPageDesktopState extends State<ContactPageDesktop> {
    print(_messageController.value.text.toString());
    print(_nameController.value.text.toString());
    print(_phoneNumberController.value.text.toString());
-   await ContactService().sendMAil(
+   if (_emailController.value.text != '' && _messageController.value != '' && _nameController.value.text != '') {
+
+   bool send = await ContactService().sendMAil(
        _emailController.value.text.toString(),
        _nameController.value.text.toString(),
        _phoneNumberController.value.text.toString(),
        _messageController.value.text.toString());
+   if (send) {
+     setState(() {
+       showDialog<String>(
+         context: context,
+         builder: (BuildContext context) => AlertDialog(
+           title: const Text('Merci !'),
+           content: const Text('votre message a été envoyé avec succès', style: TextStyle(color: AppColors.accentColor),),
+           actions: <Widget>[
+             TextButton(
+               onPressed: () => Navigator.pop(context, 'OK'),
+               child: const Text('OK'),
+             ),
+           ],
+         ),
+       );
+       _emailController.text = '';
+       _messageController.text = '';
+       _nameController.text = '';
+       _phoneNumberController.text = '';
+     });
+
+   } else {
+     setState(() {
+       showDialog<String>(
+         context: context,
+         builder: (BuildContext context) => AlertDialog(
+           title: const Text('Erreur'),
+           content: const Text('Il semblerait que votre message n\'ai pas été envoyé', style: TextStyle(color: AppColors.accentColor),),
+           actions: <Widget>[
+             TextButton(
+               onPressed: () => Navigator.pop(context, 'OK'),
+               child: const Text('OK'),
+             ),
+           ],
+         ),
+       );
+       _emailController.text = '';
+       _messageController.text = '';
+       _nameController.text = '';
+       _phoneNumberController.text = '';
+     });
+   }
+   } else {
+     setState(() {
+       showDialog<String>(
+         context: context,
+         builder: (BuildContext context) => AlertDialog(
+           title: const Text('Erreur'),
+           content: const Text('Il semblerait que votre message n\'est pas complet', style: TextStyle(color: AppColors.accentColor),),
+           actions: <Widget>[
+             TextButton(
+               onPressed: () => Navigator.pop(context, 'OK'),
+               child: const Text('OK'),
+             ),
+           ],
+         ),
+       );
+       _emailController.text = '';
+       _messageController.text = '';
+       _nameController.text = '';
+       _phoneNumberController.text = '';
+     });
+   }
+
+   }
  }
-}
+

@@ -18,7 +18,7 @@ class StringConst {
   static const String CERTIFICATIONS = "Contactez-nous";
   static const String EMAIL_VALUE = "davidcobbina47@gmail.com";
 
-  static const String MESSAGE_ME = "Message me";
+  static const String MESSAGE_ME = "Envoyez-nous un message";
   static const String GET_IN_TOUCH = "Contactez-nous";
   static const String VIEW = "View";
   static const String COMING_SOON = "COMING SOON !!";
@@ -30,7 +30,7 @@ class StringConst {
   static const String EXPERIENCE_2 = "EXPERIENCE";
   static const String EDUCATION = "";
 
-  static const String SEND_ME_A_MESSAGE = "Send me a message";
+  static const String SEND_ME_A_MESSAGE = "Envoyé un message";
   static const String VIEW_PORTFOLIO = "View Portfolio";
 
   static const String PROJECT_NAME = "Project Name";
@@ -48,12 +48,12 @@ class StringConst {
   static const String EDUCATION_TEXT =
       "I am self taught programmer who graduated from Kwame Nkrumah Univeristy of Science Technology with a degree in Agricultural Engineering. I love learning and writing computer programs.";
   //Form Hint Texts
-  static const String NAME_HINT_TEXT = "Name";
-  static const String PHONE_HINT_TEXT = "Phone (Optional)";
+  static const String NAME_HINT_TEXT = "Noms";
+  static const String PHONE_HINT_TEXT = "Téléphone (Optionnel)";
   static const String EMAIL_HINT_TEXT = "Email";
   static const String MESSAGE_HINT_TEXT = "Message";
 
-  static const String SEND_MESSAGE = "Send Message";
+  static const String SEND_MESSAGE = "Envoyer";
 
   //Skills
   static const String FLUTTER = "Planning";
