@@ -40,13 +40,13 @@ http.createServer(app).listen(port, () => {
 if (process.env.ENVIRONMENT === 'prod') {
     const fs = require('fs');
     const https = require('https');
-    const privateKey = fs.readFileSync('certificates/privatekey.pem');
-    const certificate = fs.readFileSync('certificates/certificate.pem');
+    const privateKey = fs.readFileSync('certificates/key.pem');
+    const certificate = fs.readFileSync('certificates/cert.pem');
 
     https.createServer({
         key: privateKey,
         cert: certificate
     }, app).listen(443, () => {
-      console.log(`Server https listening on port ${port}`)
+      console.log(`Server https listening on port 443`)
     });
 }
