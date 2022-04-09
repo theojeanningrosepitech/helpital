@@ -1,5 +1,7 @@
+require('dotenv').config();
 const express = require('express')
 const path = require('path');
+const http = require('http');
 const app = express()
 const port = 80
 
@@ -31,6 +33,20 @@ app.use('/assets', express.static('assets'))
 app.use('/canvaskit', express.static('canvaskit'))
 app.use('/icons', express.static('icons'))
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+http.createServer(app).listen(port, () => {
+  console.log(`Server http listening on port ${port}`)
 })
+
+if (process.env.ENVIRONMENT === 'prod') {
+    const fs = require('fs');
+    const https = require('https');
+    const privateKey = fs.readFileSync('certificates/privatekey.pem');
+    const certificate = fs.readFileSync('certificates/certificate.pem');
+
+    https.createServer({
+        key: privateKey,
+        cert: certificate
+    }, app).listen(443, () => {
+      console.log(`Server https listening on port ${port}`)
+    });
+}

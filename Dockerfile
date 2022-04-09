@@ -10,5 +10,6 @@ RUN npm install --production
 COPY . .
 
 EXPOSE 80
+EXPOSE 443
 
 CMD [ "node", "server" ]

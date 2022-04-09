@@ -3,7 +3,8 @@ services:
     webapp:
         build: .
         restart: "no"
-        # expose:
-        #    - "80"
+        env_file:
+            - .env
         ports:
-            - "8080:80"
+            - "${LOCAL_IP}:80:80"
+            - "${LOCAL_IP}:443:443"
