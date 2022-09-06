@@ -1,7 +1,7 @@
 part of values;
 
 class Gradients {
-  static const Gradient primaryGradient = RadialGradient(
+  static Gradient primaryGradient = RadialGradient(
     center: Alignment.centerRight,
 //    focalRadius: 1.0,
     radius: 1.0,
@@ -11,7 +11,7 @@ class Gradients {
     ],
   );
 
-  static const Gradient try1 = LinearGradient(
+  static Gradient try1 = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomLeft,
     stops: [0.5, 1.0],
@@ -21,7 +21,7 @@ class Gradients {
     ],
   );
 
-  static const Gradient try2 = LinearGradient(
+  static Gradient try2 = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomLeft,
     stops: [0.5, 1.0],

@@ -42,7 +42,7 @@ const RESOURCES = {
 "assets/assets/images/bequip_logistics.jpg": "d9a33516351b0bb9e7cadc83b8780c66",
 "assets/assets/images/learn_upp.jpg": "45063d1af568d5f2ad55b3f6eb447233",
 "assets/assets/images/foodybite.jpg": "15fa08d9eea454b52afcd280aa044083",
-"assets/NOTICES": "e3b8c966a6bde00033595c7b6e32b372",
+"assets/NOTICES": "20d9b7301f766d27869bcbb32269807c",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "aa1ec80f1b30a51d64c72f669c1326a7",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "5178af1d278432bec8fc830d50996d6f",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "b37ae0f14cbc958316fac4635383b6e8",
@@ -50,18 +50,19 @@ const RESOURCES = {
 "assets/packages/flutter_feather_icons/fonts/feather.ttf": "c96dc22ca29a082af83cce866d35cebc",
 "assets/FontManifest.json": "bdd5ce6f199dd9c206f745254bec9bfd",
 "assets/AssetManifest.json": "eb544c0e941beeec84b9ce8091fbcdec",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
 "manifest.json": "0da78158fdd5e9f4257b3afa39422dba",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/helpital_logo_heart.png": "0079614b76352b3601200889ca0f9553",
 "icons/logo-aerium-2.png": "58b131c1e81194452cb702693c040a92",
 "icons/logo-aerium-1.png": "c9c1749b275f61ebc563d6596ccf2569",
-"main.dart.js": "d9b5a7085a0e0d031276430406fcbd0f",
+"main.dart.js": "2f3c54bf97a40e3812964dc2fe10ca88",
 "version.json": "1b204363036cb81cf2b14fbff671c6a4",
-"index.html": "d79b9b32ef15fd9cb1d730066d3682ba",
-"/": "d79b9b32ef15fd9cb1d730066d3682ba"
+"index.html": "d62e06846084afc7763cb230fd1b1a78",
+"/": "d62e06846084afc7763cb230fd1b1a78"
 };
 
 // The application shell files that are downloaded before a service worker can

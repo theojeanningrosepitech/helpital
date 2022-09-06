@@ -115,7 +115,7 @@ class StringConst {
 
   //PARCOURS
   static const String CURRENT_MONTH_YEAR = "Septembre 2020";
-  static const String STARTED_MONTH_YEAR = "Mars 2022 - En cours";
+  static const String STARTED_MONTH_YEAR = "Septembre 2022 - En cours";
 
   static const String COMPANY_0 = "Sprint FAST FORWARD";
   static const String COMPANY_0_URL = "";
