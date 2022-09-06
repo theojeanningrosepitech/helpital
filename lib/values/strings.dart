@@ -35,18 +35,18 @@ class StringConst {
 
   static const String PROJECT_NAME = "Project Name";
 
-  static const String INTRO = "Welcome to ";
+  static const String INTRO = "Bienvenue chez ";
   static const String DEV_NAME = "Helpital";
-  static const String PUNCH_LINE = "Helpital est un logiciel d'optimisation et d'organisation destiné aux hôpitaux.";
+  static const String PUNCH_LINE = "L’avenir de votre santé.";
   static const String SPECIALITY = "";
   static const String DESIGNED_IN = "";
   static const String DESIGNED_BY = "Designed by Helpital";
   static const String BUILT_BY = "";
 
   static const String ABOUT_DEV_TEXT =
-      "Nous essayons de résoudre les problèmes de communication dans les hôpitaux en proposant un logiciel simple d'utilisation et qui leur correspond. Le but est donc de réunir toutes les fonctionnalitées des logiciels existant en un seul.";
-  static const String EDUCATION_TEXT =
-      "I am self taught programmer who graduated from Kwame Nkrumah Univeristy of Science Technology with a degree in Agricultural Engineering. I love learning and writing computer programs.";
+      "               Helpital est un regroupement de services ergonomiques, contemporains et simples d'utilisation qui améliore la gestion, l'organisation et la communication des infrastructures médicales comme les hôpitaux ou les cliniques privées. Il peut aussi être utilisé par les patients comme un outil d'échange avec ces infrastructures. Helpital est un outil qui permet au plus grand nombre de bénéficier de la technologie pour sa santé."
++ "\nL’ensemble des solutions offertes par Helpital repose sur un logiciel de gestion cross-platform qui propose comme outils : la gestion des consultations, du personnel et des patients mais aussi une messagerie, un plan de l'hôpital et bien plus encore. Autour de cette base gravitent d’autres solutions telles qu' un site de recrutement ainsi qu’un site de prise de rendez-vous qui vous permet de contacter directement le praticien de votre choix.";
+  static const String EDUCATION_TEXT = "";
   //Form Hint Texts
   static const String NAME_HINT_TEXT = "Noms";
   static const String PHONE_HINT_TEXT = "Téléphone (Optionnel)";
@@ -119,7 +119,7 @@ class StringConst {
 
   static const String COMPANY_0 = "Sprint FAST FORWARD";
   static const String COMPANY_0_URL = "";
-  static const String POSITION_0 = "3th Sprint";
+  static const String POSITION_0 = "3ème Sprint";
   static const String COMPANY_0_ROLE_1 = "75% de la béta du logiciel terminer";
   static const String COMPANY_0_ROLE_2 = "Début de nouvelle feature";
   static const String COMPANY_0_ROLE_3 = "";
@@ -169,7 +169,20 @@ class StringConst {
   static const String LOCATION_4 = "France - Nice";
   static const String DURATION_4 = "Septembre 2020";
 
+
+  /// EVENT 2
+  static const String COMPANY_5 = "Sprint BETA & GROWTH HACKING ";
+  static const String COMPANY_5_URL = SITE_URL;
+  static const String POSITION_5 = "4ème Sprint";
+  static const String COMPANY_5_ROLE_1 = "Travaille et amélioration du visuelle de l'application";
+  static const String COMPANY_5_ROLE_2 = "Création des documents technique et utilisateur";
+  static const String COMPANY_5_ROLE_3 = "Test de notre beta et récupération des retour";
+  static const String LOCATION_5 = "France";
+  static const String DURATION_5 = "Juin 2022 - Septembre 2022";
   //Portfolio, Projects
+
+
+
 
   /// BRYAN
   static const String BRYAN = "Bryan Fortin";
@@ -193,7 +206,7 @@ class StringConst {
   /// MANU
   static const String MANU = "Emmanuel Lena";
   static const String MANU_SUBTITLE = "développeur full stack";
-  static const String MANU_DETAIL = "Emmanuel est étudiant a Epitech";
+  static const String MANU_DETAIL = "Je suis un développeur sait travailler en équipe et en autonomie, qui aime la perfection et tente de s'en rapprocher dans toutes les facettes de son travail. L'informatique est avant tout une passion pour moi.";
   static const String MANU_GITHUB_URL = "";
 
   ///IRAMA

@@ -227,7 +227,7 @@ class Data {
       technologyUsed: '',
       gitHubUrl: StringConst.CHARLES_GITHUB_URL,
     ),
-    PortfolioData(
+/*    PortfolioData(
       title: StringConst.IRAMA,
       subtitle: StringConst.IRAMA_SUBTITLE,
       image: ImagePath.IRAMA,
@@ -236,7 +236,7 @@ class Data {
       isPublic: true,
       technologyUsed: '',
       gitHubUrl: StringConst.IRAMA_GITHUB_URL,
-    ),
+    ),*/
     PortfolioData(
       title: StringConst.PAUL,
       subtitle: StringConst.PAUL_SUBTITLE,
@@ -327,6 +327,18 @@ class Data {
       ],
       location: StringConst.LOCATION_0,
       duration: StringConst.DURATION_0,
+    ),
+    ExperienceData(
+      company: StringConst.COMPANY_5,
+      position: StringConst.POSITION_5,
+      companyUrl: StringConst.COMPANY_5_URL,
+      roles: [
+        StringConst.COMPANY_5_ROLE_1,
+        StringConst.COMPANY_5_ROLE_2,
+        StringConst.COMPANY_5_ROLE_3,
+      ],
+      location: StringConst.LOCATION_5,
+      duration: StringConst.DURATION_5,
     ),
   ];
 }
