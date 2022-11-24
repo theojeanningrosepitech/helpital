@@ -40,7 +40,7 @@ http.createServer(app).listen(port, () => {
 if (process.env.ENVIRONMENT === 'prod') {
     const fs = require('fs');
     const https = require('https');
-    const privateKey = fs.readFileSync('certificates/key.pem');
+    const privateKey = fs.readFileSync('certificates/privkey.pem');
     const certificate = fs.readFileSync('certificates/cert.pem');
 
     https.createServer({
